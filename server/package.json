@@ -1,0 +1,30 @@
+{
+  "name": "authsystem",
+  "version": "1.0.0",
+  "description": "Authentiction system for user/admin (login/signup) using jwt/bcrypt",
+  "keywords": [
+    "nodejs",
+    "reactjs",
+    "mongodb",
+    "jwt",
+    "bcrypt"
+  ],
+  "license": "ISC",
+  "author": "Naboneeta Das",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.3",
+    "nodemailer": "^7.0.5"
+  }
+}
